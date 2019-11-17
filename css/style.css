@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap');
+body{
+	font-family:'Lato', sans-serif;
+	font-size:15px;
+	color:#999999;
+   
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.container{
+	width:1100px;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+li{
+	list-style?:none;
+}
+a,a:hover{
+	text-decoration:none;
+}
+img{
+	display:block;
+	max-width:100%;
+}
+ul{
+	list-style:none;
+}
+/* -------------------------
+   header section 
+    -------------------------
+*/  
+header{
+	background-color:#f6f9f9;
+    padding: 24px 0px;
+}
+
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{
+	
+}
+
+nav ul li a{
+    color: #2d3950;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+	
+}
+nav ul li a:hover{
+	color:#15A4FA;
+}
+
+/* -------------------------
+   header section 
+    -------------------------
+*/
+/* -------------------------
+   banner section 
+    -------------------------
+*/
+.banner-section{
+	background: url(../img/banner.png);
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.banner-section .row{
+	justify-content:center;
+	min-height: 100vh;
+}
+.banner-content{
+    text-align: center;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.banner-content h2{
+    font-size: 120px;
+    color: #fff;
+ 
+    margin-top: 212px;
+   
+}
+.banner-content span{
+    width: 100%;
+    min-height: 5px;
+    background: #15A4FA;
+    display: block;
+    margin-top: 35px;
+}
+.banner-content p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 39px;
+}
+.banner-content button{
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 33px;
+    border-radius: 6px;
+    margin-top: 44px;
+    border: 1px solid #15A4FA;
+    background: transparent;
+}
+.banner-content button:hover{
+	background:#15A4FA;
+	cursor:pointer;
+	transition:all 1s ease;
+}
+.arrow-down{
+    font-size: 30px;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    /* right: 50%; */
+    bottom: 2px;
+    transform: translateX(-50%);
+}
+.arrow-down:hover{
+	color:#15A4FA;
+	
+}
+/* -------------------------
+   banner section 
+    -------------------------
+*/
+/* -------------------------
+   about section 
+    -------------------------
+*/
+.about-section{
+	background-color:#F6F9F9;
+}
+.about-heading{
+	text-align:center;
+	padding:80px 0 100px;
+}
+.about-heading h2{
+	color:#2D3950;
+	font-size:40px;
+	font-weight:400;
+	
+}
+.about-heading p{
+	color:#A5A6A6;
+	font-size:20px;
+	margin-top:35px;
+}
+/* -------------------------
+   about section 
+    -------------------------
+*/
+/* -------------------------
+   feature section 
+    -------------------------
+*/
+   feature section 
+    -------------------------
+*/
+.feature-section{}
+.feature-box{
+	max-width: 33.33%;
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 65px 15px;
+}
+.feature-icon{
+	
+width: 100px;
+	
+height: 100px;
+	
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5fc3ff+50,48baff+50 */
+background: #5fc3ff; /* Old browsers */
+background: -moz-linear-gradient(left,  #5fc3ff 50%, #48baff 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #5fc3ff 50%,#48baff 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #5fc3ff 50%,#48baff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fc3ff', endColorstr='#48baff',GradientType=1 ); /* IE6-9 */
+
+	
+/* text-align: center; */
+	
+margin: auto;
+}
+.feature-icon i{
+font-size: 50px;
+color: #fff;
+line-height: 2;
+margin-bottom:27px;
+}
+.feature-box h3{
+	font-size:22px;
+	color:#2d3950;
+	margin-top:30px;
+}
+.feature-box p{
+	font-size:15px;
+	color:#999999;
+	margin-top:24px;
+}
+/* -------------------------
+   feature section 
+    -------------------------
+*/
+/* -------------------------
+   showcase section 
+    -------------------------
+*/
+.showcase-section{
+	background:#F6F9F9;
+}
+.about-showcase h2{
+    font-size: 41px;
+    color: #2d3950;
+    margin-bottom: 28px;
+}
+.about-showcase p{
+    font-size: 15px;
+    color: #909090;
+}
+.about-showcase{
+    text-align: center;
+    padding: 61px 0px;
+}
+.showcase{
+	max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.showcase-detail{
+	position:relative;
+}
+.showcase-detail img{}
+.showcase-detail .overlay{
+	position:absolute;
+	width:100%;
+	height:0%;
+	background:#24a5f2ad;
+    padding: 15px;
+	top:0;
+	opacity:0;
+	transition:all 0.4s ease;
+}
+.showcase-detail:hover .overlay{
+	opacity:1;
+	height:100%;
+}
+.showcase-detail .plus{
+	color: #fff;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-40%,-50%);
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+	opacity:0;
+	transition:all 0.6s;
+}
+.showcase-detail:hover .plus{
+	opacity:1;
+}
+.showcase-detail .link{
+	color: #fff;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 45%;
+    transform: translate(45%, -50%);
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius:5px;
+    text-align: center;
+    line-height: 35px;
+	opacity:0;
+	transition:all 0.6s;
+}
+.showcase-detail:hover .link{
+	opacity:1;
+}
+/* -------------------------
+   showcase section 
+    -------------------------
+*/
+/* -------------------------
+  contact section 
+    -------------------------
+*/
+.contact-section{
+	background-image: url(../img/contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+}
+
+.contact-section .row{
+    justify-content: center;
+}
+.contact-section img{}
+.contact-section .overlay{
+    background-color: rgba(45, 57, 80, 0.9);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.contact-heading{
+    position: relative;
+    padding: 65px 0 86px;
+}
+.contact-heading h2{
+    font-size: 43px;
+    color: #fff;
+	padding:10px
+}
+.contact-heading p{
+    font-size: 16px;
+    color: #999;
+    padding: 17px;
+}
+.contact-form{
+    position: relative;
+    max-width: 42%;
+    flex-basis: 42%;
+    
+}
+.contact-form form input{
+    width: 100%;
+    height: 52px;
+    padding: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #fff;
+}
+form{
+	padding-bottom: 100px;
+}
+.contact-form form textarea{
+    width: 100%;
+    height: 111px;
+    padding: 3px;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #fff;
+}
+.contact-form .row{
+    align-items: center;
+    padding-top: 10px;
+}
+.contact-form form ul li{
+    max-width: 50%;
+    flex-basis: 50%;
+    list-style: none;
+}
+.contact-form form ul li input[type="checkbox"]{
+    width: auto;
+    float: left;
+    height: 23px;
+}
+.contact-form .row li label{
+    font-size: 15px;
+    color: #999;
+	margin-left: -100px;
+}
+.contact-form form ul li input[type="submit"]{
+    width: auto;
+    float: right;
+    font-size: 18px;
+    padding: 3px 39px;
+    border-color: #15a4fa;
+    height: 40px;
+    cursor: pointer;
+}
+.contact-form form ul li input[type="submit"]:hover{
+	background-color:#15a4fa; 
+}
+
+/* -------------------------
+  contact section 
+    -------------------------
+*/
+/* -------------------------
+  footer section 
+    -------------------------
+*/
+footer{
+    padding: 25px;
+}
+footer:hover{
+	background:#555;
+	color:#fff;
+}
+.copyright{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.copyright p{
+	font-size: 17px;
+    color: #999;
+}
+.copyright a{
+color: #889;
+font-size:21px;
+}
+.social{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.social ul{
+	justify-content:flex-end;
+}
+.social ul li{
+    list-style: none;
+    width: auto;
+}
+.social ul li a{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-color: #15a4fa;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 40px;
+}
+footer .row{
+	
+align-items: center;
+}
+/* -------------------------
+  footer section 
+   --------------------------
+*/
+
